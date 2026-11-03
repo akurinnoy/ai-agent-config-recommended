@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-agent-config-recommended",
+  "version": "0.1.0",
+  "description": "Recommended AI agent configuration for Dev Spaces workspaces.",
+  "extensions": {
+    "dev.getlola": {
+      "agents": "./dev.getlola/agents",
+      "instructions": "./dev.getlola/AGENTS.md"
+    }
+  }
+}
